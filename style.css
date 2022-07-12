@@ -22,6 +22,7 @@ h3 {
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    border: solid 2px black;
 }
 
 .left-section {
@@ -212,6 +213,14 @@ h3 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
+.mw {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25;
+}
+
 
 /* Media queries */
 @media screen and (max-width:780px) {
