@@ -22,7 +22,7 @@ h3 {
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    border: solid 2px black;
+    border: solid 2px rgba(27, 27, 58, 0.8);
 }
 
 .left-section {
