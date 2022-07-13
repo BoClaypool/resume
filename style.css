@@ -100,8 +100,7 @@ h3 {
     padding-top: 1.5rem;
 }
 
-.left-info3 ul li,
-.references ul li {
+.left-info3 ul li {
     padding: .4rem 0;
     display: flex;
     align-items: center;
@@ -110,17 +109,16 @@ h3 {
     font-size: 18px;
 }
 
-.left-info3 ul li i,
-.references ul li i {
+.left-info3 ul li i {
     padding-right: 1rem;
     font-size: 18px;
     color: #2E86C1;
 }
 
-.skills ul {
+.highlights ul {
     padding-top: 1.5rem;
 }
-.skills ul li p {
+.highlights ul li p {
     color: #ffffffaf;
     font-size: 18px;
     letter-spacing: 1px;
@@ -128,24 +126,6 @@ h3 {
     align-items: center;
     text-transform: uppercase;
 }
-
-.referance-name {
-    padding-top: 1.5rem;
-    padding-bottom: .4rem;
-    font-size: 18px;
-    color: #F9E79F;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.referance-profession {
-    font-size: 16px;
-    color: #ffffffaf;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
-    padding-bottom: .4rem;
-}
-
 
 .right-section-contents {
     padding: 2rem 2rem;
@@ -285,18 +265,15 @@ h3 {
         font-size: 18px;
     }
 
-    .left-info3 ul li,
-    .references ul li {
+    .left-info3 ul li {
         font-size: 12px;
     }
 
-    .left-info3 ul li i,
-    .references ul li i {
-        /* padding-right: 1rem; */
+    .left-info3 ul li i {
         font-size: 12px;
     }
 
-    .skills ul li p {
+    .highlights ul li p {
         font-size: 12px;
     }
 
