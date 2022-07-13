@@ -259,6 +259,10 @@ h3 {
     }
 }
 
+.mw {
+    padding-bottom: 10%;
+  }
+
 @media screen and (max-width:1600px) {
     .cv-contents {
         width: 100%;
