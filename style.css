@@ -16,7 +16,7 @@ h3 {
     color: #ffffffaf;
 }
 
-.letter {
+.paperstack {
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin: 26px auto 0;
@@ -25,30 +25,9 @@ h3 {
     padding: 24px;
     position: relative;
     width: 80%;
-  }
-  .letter:before, .letter:after {
-    content: "";
-    height: 98%;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-  }
-  .letter:before {
-    background: #fafafa;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
-    left: -5px;
-    top: 4px;
-    transform: rotate(-2.5deg);
-  }
-  .letter:after {
-    background: #f6f6f6;
-    box-shadow: 0 0 3px rgba(0,0,0,0.2);
-    right: -3px;
-    top: 1px;
-    transform: rotate(1.4deg);
-  }
+}
 
-.resume-contents {
+.cv-contents {
     min-height: 100vh;
     width: 80%;
     margin: 2rem auto;
@@ -74,18 +53,18 @@ h3 {
     padding: 2rem 2rem;
 }
 
-.profile {
+.candidateprofile {
     width: 100%;
     border-bottom: 2px solid #1B2631;
 }
 
-.profile .profile-image {
+.candidateprofile .candidate-image {
     width: 100%;
     border-radius: 50%;
     border: 8px solid #1B2631;
 }
 
-.name {
+.left-info {
     color: #ffffff;
     font-size: 30px;
     letter-spacing: 2px;
@@ -96,7 +75,7 @@ h3 {
     
 }
 
-.profession {
+.left-info2 {
     color: #F9E79F;
     font-size: 20px;
     text-transform: uppercase;
@@ -106,7 +85,6 @@ h3 {
     padding-bottom: 1rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #ffffff;
     font-size: 20px;
@@ -118,11 +96,11 @@ h3 {
     padding-top: 3rem;
 }
 
-.contact-info ul {
+.left-info3 ul {
     padding-top: 1.5rem;
 }
 
-.contact-info ul li,
+.left-info3 ul li,
 .references ul li {
     padding: .4rem 0;
     display: flex;
@@ -132,7 +110,7 @@ h3 {
     font-size: 18px;
 }
 
-.contact-info ul li i,
+.left-info3 ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
@@ -198,7 +176,7 @@ h3 {
 
 .experience-contents,
 .education-contents,
-.awards-contents {
+.license-cert-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
@@ -206,7 +184,7 @@ h3 {
 
 .exp-company-name,
 .education-school-name,
-.awards-company-name {
+.license-cert-company-name {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -217,7 +195,7 @@ h3 {
 
 .exp-time-period,
 .educationp-time-period,
-.awards-time-period {
+.license-cert-time-period {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
@@ -225,7 +203,7 @@ h3 {
 
 .exp-position,
 .education-subject,
-.awards-name {
+.license-cert-name {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -236,7 +214,7 @@ h3 {
 
 .exp-desc,
 .education-desc,
-.awards-desc {
+.license-cert-desc {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
@@ -255,10 +233,11 @@ h3 {
 
 
 /* Media queries */
+
 @media screen and (max-width:780px) {
     .experience-contents,
     .education-contents,
-    .awards-contents {
+    .license-cert-contents {
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -275,22 +254,22 @@ h3 {
 }
 
 @media screen and (max-width:1200px) {
-    .resume-contents {
+    .cv-contents {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media screen and (max-width:390px) {
-    .resume-contents {
+    .cv-contents {
         width: 100%;
         margin: 0 auto;
     }
 
-    .name {
+    .left-info {
         font-size: 20px;
     }
 
-    .profession {
+    .left-info2 {
         font-size: 18px;
     }
 
@@ -302,12 +281,12 @@ h3 {
         font-size: 18px;
     }
 
-    .contact-info ul li,
+    .left-info3 ul li,
     .references ul li {
         font-size: 12px;
     }
 
-    .contact-info ul li i,
+    .left-info3 ul li i,
     .references ul li i {
         /* padding-right: 1rem; */
         font-size: 12px;
@@ -324,19 +303,19 @@ h3 {
 
     .exp-company-name,
     .education-school-name,
-    .awards-company-name {
+    .license-cert-company-name {
         font-size: 18px;
     }
 
     .exp-time-period,
     .educationp-time-period,
-    .awards-time-period {
+    .license-cert-time-period {
         font-size: 16px;
     }
 
     .exp-position,
     .education-subject,
-    .awards-name {
+    .license-cert-name {
         font-size: 18px;
     }
 }
