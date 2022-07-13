@@ -253,13 +253,13 @@ h3 {
     
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1200px)  {
     .cv-contents {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:1600px) {
     .cv-contents {
         width: 100%;
         margin: 0 auto;
@@ -318,4 +318,4 @@ h3 {
     .license-cert-name {
         font-size: 18px;
     }
-}
+
